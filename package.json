@@ -1,0 +1,20 @@
+{
+  "name": "efadevicereporter",
+  "version": "1.0.0",
+  "description": "An application for reporting information on efa-owned employee devices",
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder -mwl"
+  },
+  "author": "Adam Jayne",
+  "license": "ISC",
+  "dependencies": {
+    "systeminformation": "^4.27.9"
+  },
+  "devDependencies": {
+    "electron": "^10.1.3",
+    "electron-builder": "^22.9.1"
+  }
+}
